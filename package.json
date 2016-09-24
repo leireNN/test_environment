@@ -1,0 +1,17 @@
+{
+  "name": "fastfish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.test.js | tap-spec",
+    "watch": "nodemon -q -x 'npm test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.10.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
